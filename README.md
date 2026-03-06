@@ -1,4 +1,4 @@
-# @roastery-capsules/response-mapper
+# @roastery-capsules/api-response-mapper
 
 Elysia plugin that automatically maps entity responses to DTOs for the [Roastery CMS](https://github.com/roastery-cms) ecosystem.
 
@@ -21,7 +21,7 @@ Elysia plugin that automatically maps entity responses to DTOs for the [Roastery
 ## Installation
 
 ```bash
-bun add @roastery-capsules/response-mapper
+bun add @roastery-capsules/api-response-mapper
 ```
 
 Peer dependencies:
@@ -36,7 +36,7 @@ Register the plugin on your Elysia app:
 
 ```typescript
 import { Elysia } from "elysia";
-import { baristaResponseMapper } from "@roastery-capsules/response-mapper";
+import { baristaResponseMapper } from "@roastery-capsules/api-response-mapper";
 
 const app = new Elysia()
   .use(baristaResponseMapper)
